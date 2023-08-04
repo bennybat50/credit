@@ -7337,28 +7337,12 @@ header .flaticon-list {
 .slider .owl-next span {
   display: none;
 }
-.slider .owl-prev::before,
-.slider .owl-next::before {
-  position: absolute;
-  font-family: "FontAwesome" !important;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  background: rgba(255, 255, 255, 0.1);
-  text-align: center;
-  font-size: 22px;
-  color: #fff;
-  border-radius: 50%;
-}
 .slider .owl-prev::after,
 .slider .owl-next::after {
   display: none !important;
 }
 .slider .owl-next::before {
   content: "\f105";
-}
-.slider .owl-prev::before {
-  content: "\f104";
 }
 .slider.nav_position_one .owl-next {
   position: absolute;
